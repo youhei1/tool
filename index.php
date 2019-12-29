@@ -21,6 +21,10 @@
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item news_line">
 						<div class="news_line__date">2019.12.29</div>
+						<div class="news_line__text">.htpasswd生成ツールを追加しました。<div class="badge badge-primary">NEW</div></div>
+					</li>
+					<li class="list-group-item news_line">
+						<div class="news_line__date">2019.12.29</div>
 						<div class="news_line__text">gtag生成を世代ごとにonclick属性を作れるようにしました。<div class="badge badge-primary">NEW</div></div>
 					</li>
 					<li class="list-group-item news_line">
@@ -55,6 +59,20 @@
 							</div>
 							<div class="card-footer text-right">
 								<a href="/gtag/" class="btn btn-primary w-100">使う</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<div class="card-header">
+								<h5 class="card-title">.htpasswd生成</h5>
+								<h6 class="card-subtitle mb-2 text-muted">HTPASSWD GENERATOR</h6>
+							</div>
+							<div class="card-body">
+								<p class="card-text">.htpasswd を生成します。</p>
+							</div>
+							<div class="card-footer text-right">
+								<a href="/htpasswd/" class="btn btn-primary w-100">使う</a>
 							</div>
 						</div>
 					</div>
