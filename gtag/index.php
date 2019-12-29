@@ -66,7 +66,7 @@
 					</div>
 				</form>
 				<h2>gtag出力</h2>
-				<table class="table table-bordered table-striped table-responsive-sm" id="result_table">
+				<table class="table table-bordered table-striped table-responsive" id="result_table">
 					<thead class="thead-primary">
 						<tr>
 							<th class="cell_no">No</th>
