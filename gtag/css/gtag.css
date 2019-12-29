@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+.table {
+	table-layout: fixed;
+}
+
+.cell_no {
+	width: 5%;
+}
+
+.cell_page {
+	width: 10%;
+}
+
+.cell_url {
+	width: 20%;
+}
+
+.cell_target {
+	width: 25%;
+}
+
+.cell_gtag {
+	width: 30%;
+}
+
+.cell_btn {
+	width: 10%;
+}
