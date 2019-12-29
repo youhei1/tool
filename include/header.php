@@ -20,11 +20,11 @@
 							</div>
 						</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0 ml-auto" action="https://www.google.co.jp/search" method="GET">
+					<!-- <form class="form-inline my-2 my-lg-0 ml-auto" action="https://www.google.co.jp/search" method="GET">
 						<input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
 						<input type="hidden" name="sitesearch" value="tool.tantaku.xyz">
 						<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-					</form>
+					</form> -->
 				</div>
 			</div>
 		</nav>

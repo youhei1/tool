@@ -13,6 +13,14 @@ body {
   }
 }
 
+a {
+  color: #4e709d;
+}
+
+a:hover {
+  color: #f5b17b;
+}
+
 @media screen and (min-width: 1000px), print {
   .main_content {
     padding: 50px 0 100px;
@@ -52,6 +60,11 @@ body {
 
 .navbar-brand:hover {
   color: #fff;
+}
+
+.news_area {
+  overflow-y: scroll;
+  max-height: 400px;
 }
 
 .nav-link {
@@ -156,7 +169,7 @@ h2::before {
   flex-basis: 6em;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  color: #4e709d;
+  color: #cdd5e0;
 }
 
 .news_line__text {

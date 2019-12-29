@@ -18,20 +18,22 @@
 		<div class="main_content">
 			<div class="container container-fluid">
 				<h2>News</h2>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item news_line">
-						<div class="news_line__date">2019.12.29</div>
-						<div class="news_line__text">.htpasswd生成ツールを追加しました。<div class="badge badge-primary">NEW</div></div>
-					</li>
-					<li class="list-group-item news_line">
-						<div class="news_line__date">2019.12.29</div>
-						<div class="news_line__text">gtag生成を世代ごとにonclick属性を作れるようにしました。<div class="badge badge-primary">NEW</div></div>
-					</li>
-					<li class="list-group-item news_line">
-						<div class="news_line__date">2019.12.29</div>
-						<div class="news_line__text">BootStrap4で全体的に作り直してみました。<div class="badge badge-primary">NEW</div></div>
-					</li>
-				</ul>
+				<div class="news_area">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item news_line">
+							<div class="news_line__date">2019.12.29</div>
+							<div class="news_line__text"><a href="/htpasswd/">.htpasswd生成ツール</a>を追加しました。<div class="badge badge-primary">NEW</div></div>
+						</li>
+						<li class="list-group-item news_line">
+							<div class="news_line__date">2019.12.29</div>
+							<div class="news_line__text"><a href="/gtag/">gtag生成</a>を世代ごとにonclick属性を作れるようにしました。<div class="badge badge-primary">NEW</div></div>
+						</li>
+						<li class="list-group-item news_line">
+							<div class="news_line__date">2019.12.29</div>
+							<div class="news_line__text">BootStrap4で全体的に作り直しました。<div class="badge badge-primary">NEW</div></div>
+						</li>
+					</ul>
+				</div>
 				<h2 class="">Tool</h2>
 				<div class="row card_list">
 					<div class="col-md-4 col-sm-12">
