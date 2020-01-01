@@ -20,11 +20,11 @@
 				<div class="row mb-5">
 					<div class="col-sm-6">
 						<h3>変換前</h3>
-						<textarea rows="10" id="before" class="w-100"></textarea>
+						<textarea rows="10" id="before" class="w-100 form-control"></textarea>
 					</div>
 					<div class="col-sm-6">
 						<h3>変換後</h3>
-						<textarea rows="10" id="after" class="w-100"></textarea>
+						<textarea rows="10" id="after" class="w-100 form-control"></textarea>
 					</div>
 				</div>
 				<div class="row">

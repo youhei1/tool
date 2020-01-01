@@ -1,7 +1,7 @@
 	<header class="fixed-top">
 		<nav class="navbar navbar-primary navbar-expand-lg">
 			<div class="container">
-				<a class="navbar-brand header_logo" href="/"><img src="/common/img/header/logo.png" alt=""> tool.tantaku.xyz</a>
+				<a class="navbar-brand header_logo" href="/"><img src="/common/img/header/logo.png" alt=""><div class="header_logo__title">tool.tantaku.xyz</div></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
 						<span></span>
@@ -12,11 +12,17 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools</a>
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Tools</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="/ja-text-converter/">JAテキスト変換</a>
 								<a class="dropdown-item" href="/gtag/">gtag生成</a>
 								<a class="dropdown-item" href="/htpasswd/">.htpasswd生成</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chrome Extensions</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<div class="dropdown-item disabled">現在、公開していません。</div>
 							</div>
 						</li>
 					</ul>

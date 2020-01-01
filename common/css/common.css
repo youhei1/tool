@@ -41,6 +41,9 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header_logo img {
@@ -84,6 +87,16 @@ a:hover {
 
 .bg-secondary {
   background-color: #cdd5e0 !important;
+}
+
+.btn.disabled {
+  pointer-events: none;
+  background-color: #aaa;
+  border-color: #ccc;
+}
+
+.btn__ext {
+  margin-left: 0.5em;
 }
 
 .btn-primary {
@@ -215,6 +228,12 @@ h2::before {
 .required::after {
   content: ' *';
   color: #f00;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #f5b17b;
 }
 
 /*# sourceMappingURL=common.css.map */

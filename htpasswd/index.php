@@ -11,6 +11,28 @@
 
 	}
 
+	if (isset($_POST['htpasswd'])) {
+
+		$file_path = '.htpasswd';
+
+		$htpasswd = $_POST['htpasswd'];
+		$content_length = strlen($htpasswd);
+
+		// HTTPヘッダ設定
+		header('Content-Type: application/octet-stream');
+		header('Content-Length: '. $content_length);
+		header('Content-Disposition: attachment; filename*=UTF-8\'\'' . rawurlencode($file_path)); 
+
+		// ファイル出力
+		// ファイルパスを指定せず、「php://output」に出力することで一時ファイルを作成せずに書き込み可能
+		$fp = fopen('php://output', 'w');
+		//foreachでライン毎にfputcsvでCSV出力
+		fputs($fp, $htpasswd);
+		fclose($fp);
+		exit;
+
+	}
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -36,13 +58,26 @@
 						<div class="col-sm-6">
 							<div class="form-group">
 								<label class="required">ID</label>
-								<input type="text" name="id" value="<?php echo isset($_POST['id']) ? $_POST['id'] : ''; ?>" class="form-control" required>
+								<input type="text" name="id" value="<?php echo isset($_POST['id']) ? $_POST['id'] : ''; ?>" class="form-control" required maxlength="20">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="form-group">
 								<label class="required">PW</label>
-								<input type="text" name="pw" value="<?php echo isset($_POST['pw']) ? $_POST['pw'] : ''; ?>" class="form-control" required>
+								<div class="input-group">
+									<input type="text" name="pw" value="<?php echo isset($_POST['pw']) ? $_POST['pw'] : ''; ?>" class="form-control" required maxlength="20">
+									<div class="input-group-append">
+										<input type="button" value="ランダム文字列" class="btn btn-outline-secondary" id="pw_rand_btn">
+										<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="sr-only">Toggle Dropdown</span>
+										</button>
+										<div class="dropdown-menu" id="pw_rand_menu">
+											<a class="dropdown-item active" href="#" data-pwlen="8">8桁</a>
+											<a class="dropdown-item" href="#" data-pwlen="10">10桁</a>
+											<a class="dropdown-item" href="#" data-pwlen="12">12桁</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -52,8 +87,12 @@
 <?php if (isset($htpasswd)): ?>
 				<div class="alert alert-success htpasswd_box" role="alert">
 					<a href="javascript:void(0);" data-clipboard-target="#htpasswd" class="copy_link">Copy</a>
-					<pre id="htpasswd" class="mb-0"><?php echo isset($htpasswd) ? $htpasswd : ''; ?></pre>
+					<pre id="htpasswd" class="mb-0"><?php echo $htpasswd; ?></pre>
 				</div>
+				<form action="/htpasswd/" method="POST" class="text-right">
+					<input type="hidden" name="htpasswd" value="<?php echo $htpasswd; ?>">
+					<input type="submit" value="ダウンロード" class="btn btn-primary">
+				</form>
 <?php endif; ?>
 			</div>
 		</div>
