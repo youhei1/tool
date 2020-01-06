@@ -32,51 +32,51 @@
 						<h3>オプション</h3>
 						<div class="form-group">
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_br">
+								<input type="checkbox" class="custom-control-input option" id="is_br">
 								<label class="custom-control-label" for="is_br">改行にBRを出力する</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_br_after_maru">
+								<input type="checkbox" class="custom-control-input option" id="is_br_after_maru">
 								<label class="custom-control-label" for="is_br_after_maru">「。」のあとは改行する</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_start_space">
+								<input type="checkbox" class="custom-control-input option" id="is_start_space">
 								<label class="custom-control-label" for="is_start_space">BRとPのあとに全角スペースを入れる</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_line">
+								<input type="checkbox" class="custom-control-input option" id="is_line">
 								<label class="custom-control-label" for="is_line">1行にする</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_remove_tab">
+								<input type="checkbox" class="custom-control-input option" id="is_remove_tab">
 								<label class="custom-control-label" for="is_remove_tab">タブを消す</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_p">
+								<input type="checkbox" class="custom-control-input option" id="is_p">
 								<label class="custom-control-label" for="is_p">pタグで囲む</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_ja_full">
+								<input type="checkbox" class="custom-control-input option" id="is_ja_full">
 								<label class="custom-control-label" for="is_ja_full">JAを全角にする</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_half">
+								<input type="checkbox" class="custom-control-input option" id="is_half">
 								<label class="custom-control-label" for="is_half">全角を半角にする</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_special">
+								<input type="checkbox" class="custom-control-input option" id="is_special">
 								<label class="custom-control-label" for="is_special">特殊文字を変換する</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_jittai">
+								<input type="checkbox" class="custom-control-input option" id="is_jittai">
 								<label class="custom-control-label" for="is_jittai">特殊文字を実態参照に変換する</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_tel">
+								<input type="checkbox" class="custom-control-input option" id="is_tel">
 								<label class="custom-control-label" for="is_tel">電話番号をリンクにする</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
-								<input type="checkbox" class="custom-control-input" id="is_remove_attr">
+								<input type="checkbox" class="custom-control-input option" id="is_remove_attr">
 								<label class="custom-control-label" for="is_remove_attr">指定した属性を全部消す（カンマ区切りで）</label>
 							</div>
 						</div>

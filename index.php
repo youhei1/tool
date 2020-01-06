@@ -21,6 +21,10 @@
 				<div class="news_area">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item news_line">
+							<div class="news_line__date">2020.01.07</div>
+							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>の、リセットボタンが動作しない不具合を修正しました。</div>
+						</li>
+						<li class="list-group-item news_line">
 							<div class="news_line__date">2020.01.01</div>
 							<div class="news_line__text"><a href="/htpasswd/">.htpasswd生成ツール</a>にパスワードの自動生成ボタンを追加しました。</div>
 						</li>
