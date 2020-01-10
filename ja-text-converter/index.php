@@ -56,6 +56,10 @@
 								<label class="custom-control-label" for="is_p">pタグで囲む</label>
 							</div>
 							<div class="custom-control custom-checkbox mr-sm-2">
+								<input type="checkbox" class="custom-control-input option" id="is_banchi_to_hyphen">
+								<label class="custom-control-label" for="is_banchi_to_hyphen">丁目、番地をハイフンにする</label>
+							</div>
+							<div class="custom-control custom-checkbox mr-sm-2">
 								<input type="checkbox" class="custom-control-input option" id="is_ja_full">
 								<label class="custom-control-label" for="is_ja_full">JAを全角にする</label>
 							</div>

@@ -195,6 +195,14 @@ $(function () {
 				logs.push('特殊文字を普通文字に変更しました。');
 			}
 		}
+		if ($('#is_banchi_to_hyphen:checked').length) {
+			converted_diff = converted;
+			converted = converted.replace(/丁目/g, "-");
+			converted = converted.replace(/番地/g, "-");
+			if (converted !== converted_diff) {
+				logs.push('丁目、番地をハイフン（-）にしました。');
+			}
+		}
 		if ($('#is_tel:checked').length) {
 			converted_diff = converted;
 			converted = converted.replace(/(\d{2,})\-(\d{2,})\-(\d{2,})/gi, "<a href=\"tel:$1$2$3\" class=\"tel_link\">$1-$2-$3</a>");

@@ -21,6 +21,10 @@
 				<div class="news_area">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item news_line">
+							<div class="news_line__date">2020.01.10</div>
+							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>に、「丁目、番地をハイフンにする」機能を追加しました。</div>
+						</li>
+						<li class="list-group-item news_line">
 							<div class="news_line__date">2020.01.07</div>
 							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>の、リセットボタンが動作しない不具合を修正しました。</div>
 						</li>
