@@ -195,6 +195,7 @@ $(function () {
 				logs.push('特殊文字を普通文字に変更しました。');
 			}
 		}
+
 		if ($('#is_tel:checked').length) {
 			converted_diff = converted;
 			converted = converted.replace(/(\d{2,})\-(\d{2,})\-(\d{2,})/gi, "<a href=\"tel:$1$2$3\" class=\"tel_link\">$1-$2-$3</a>");
