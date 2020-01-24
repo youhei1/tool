@@ -21,6 +21,10 @@
 				<div class="news_area">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item news_line">
+							<div class="news_line__date">2020.01.24</div>
+							<div class="news_line__text">Chrome拡張機能、<a href="https://chrome.google.com/webstore/detail/share-page/ejfiiljjnjdhahdoeebcknnndabkadgg" target="_blank">Share Page<i class="btn__ext fas fa-external-link-alt"></i></a> を公開しました。</div>
+						</li>
+						<li class="list-group-item news_line">
 							<div class="news_line__date">2020.01.07</div>
 							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>の、リセットボタンが動作しない不具合を修正しました。</div>
 						</li>
@@ -92,8 +96,7 @@
 					</div>
 				</div>
 				<h2>Chrome Extensions</h2>
-				<p>現在、公開していません。</p>
-				<!-- <div class="row card_list">
+				<div class="row card_list">
 					<div class="col-md-4 col-sm-12">
 						<div class="card">
 							<div class="card-header">
@@ -101,14 +104,14 @@
 								<h6 class="card-subtitle mb-2 text-muted">SHARE PAGE</h6>
 							</div>
 							<div class="card-body">
-								<p class="card-text">ページのタイトルとURLをクリップボードにコピーします。（審査中）</p>
+								<p class="card-text">ページのタイトルとURLをクリップボードにコピーします。</p>
 							</div>
 							<div class="card-footer text-right">
-								<a href="" target="_blank" class="btn btn-primary w-100 disabled">使う<i class="btn__ext fas fa-external-link-alt"></i></a>
+								<a href="https://chrome.google.com/webstore/detail/share-page/ejfiiljjnjdhahdoeebcknnndabkadgg" target="_blank" class="btn btn-primary w-100">使う<i class="btn__ext fas fa-external-link-alt"></i></a>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</main>
