@@ -22,7 +22,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Chrome Extensions</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<div class="dropdown-item disabled">現在、公開していません。</div>
+								<a class="dropdown-item" href="https://chrome.google.com/webstore/detail/share-page/ejfiiljjnjdhahdoeebcknnndabkadgg" target="_blank">Share Page<i class="btn__ext fas fa-external-link-alt"></i></a>
 							</div>
 						</li>
 					</ul>
