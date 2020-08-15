@@ -119,26 +119,6 @@ $(function () {
 				['Ⅽ', '&#8557;'],
 				['Ⅾ', '&#8558;'],
 				['Ⅿ', '&#8559;'],
-				['㈠', '&#12832;'],
-				['㈡', '&#12833;'],
-				['㈢', '&#12834;'],
-				['㈣', '&#12835;'],
-				['㈤', '&#12836;'],
-				['㈥', '&#12837;'],
-				['㈦', '&#12838;'],
-				['㈧', '&#12839;'],
-				['㈨', '&#12840;'],
-				['㈩', '&#12841;'],
-				['㈪', '&#12842;'],
-				['㈫', '&#12843;'],
-				['㈬', '&#12844;'],
-				['㈭', '&#12845;'],
-				['㈮', '&#12846;'],
-				['㈯', '&#12847;'],
-				['㈰', '&#12848;'],
-				['㈱', '&#12849;'],
-				['㈲', '&#12850;'],
-				['㈳', '&#12851;']
 			];
 			converted_diff = converted;
 			for (var charSet of replaceChars) {
@@ -150,16 +130,16 @@ $(function () {
 		}
 		if ($('#is_special:checked').length) {
 			converted_diff = converted;
+			converted = converted.replace(/㏄/gi, 'cc');
 			converted = converted.replace(/№/gi, 'No.');
-			converted = converted.replace(/：/gi, ' : ');
-			converted = converted.replace(/，/g, ",");
-			converted = converted.replace(/．/g, ".");
+			converted = converted.replace(/･/gi, '・');
 			converted = converted.replace(/\(/g, "（");
 			converted = converted.replace(/\)/g, "）");
 			converted = converted.replace(/\~/g, "～");
 			converted = converted.replace(/™/g, "<sup>TM</sup>");
 			converted = converted.replace(/㍉/g, "ミリ");
 			converted = converted.replace(/㎝/g, "cm");
+			converted = converted.replace(/㈱/g, "（株）");
 			converted = converted.replace(/㎡/g, "m<sup>2</sup>");
 			converted = converted.replace(/Ⅰ/g, "1");
 			converted = converted.replace(/Ⅱ/g, "2");
@@ -191,6 +171,12 @@ $(function () {
 			converted = converted.replace(/⑱/g, "（18）");
 			converted = converted.replace(/⑲/g, "（19）");
 			converted = converted.replace(/⑳/g, "（20）");
+			converted = converted.replace(/㉑/g, "（21）");
+			converted = converted.replace(/㉒/g, "（22）");
+			converted = converted.replace(/㉓/g, "（23）");
+			converted = converted.replace(/㉔/g, "（24）");
+			converted = converted.replace(/㉕/g, "（25）");
+
 			if (converted !== converted_diff) {
 				logs.push('特殊文字を普通文字に変更しました。');
 			}
