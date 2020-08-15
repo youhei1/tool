@@ -21,6 +21,10 @@
 				<div class="news_area">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item news_line">
+							<div class="news_line__date">2020.08.15</div>
+							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>で、ccを変換するようにしました。</div>
+						</li>
+						<li class="list-group-item news_line">
 							<div class="news_line__date">2020.01.24</div>
 							<div class="news_line__text">Chrome拡張機能、<a href="https://chrome.google.com/webstore/detail/share-page/ejfiiljjnjdhahdoeebcknnndabkadgg" target="_blank">Share Page<i class="btn__ext fas fa-external-link-alt"></i></a> を公開しました。</div>
 						</li>
