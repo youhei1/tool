@@ -14,6 +14,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Tools</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="/ruby/">ルビタグ生成</a>
 								<a class="dropdown-item" href="/ja-text-converter/">JAテキスト変換</a>
 								<a class="dropdown-item" href="/gtag/">gtag生成</a>
 								<a class="dropdown-item" href="/htpasswd/">.htpasswd生成</a>

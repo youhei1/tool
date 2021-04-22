@@ -21,6 +21,10 @@
 				<div class="news_area">
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item news_line">
+							<div class="news_line__date">2021.04.22</div>
+							<div class="news_line__text"><a href="/ruby/">ルビタグ生成</a>を追加しました。</div>
+						</li>
+						<li class="list-group-item news_line">
 							<div class="news_line__date">2020.08.15</div>
 							<div class="news_line__text"><a href="/ja-text-converter/">JAテキスト変換</a>で、ccを変換するようにしました。</div>
 						</li>
@@ -56,6 +60,20 @@
 				</div>
 				<h2 class="">Web Tools</h2>
 				<div class="row card_list">
+					<div class="col-md-4 col-sm-12">
+						<div class="card">
+							<div class="card-header">
+								<h5 class="card-title">ルビタグ生成</h5>
+								<h6 class="card-subtitle mb-2 text-muted">RUBY TAG GENERATOR</h6>
+							</div>
+							<div class="card-body">
+								<p class="card-text">ルビタグに変換します。</p>
+							</div>
+							<div class="card-footer text-right">
+								<a href="/ruby/" class="btn btn-primary w-100">使う</a>
+							</div>
+						</div>
+					</div>
 					<div class="col-md-4 col-sm-12">
 						<div class="card">
 							<div class="card-header">
