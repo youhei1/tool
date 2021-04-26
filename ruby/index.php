@@ -42,8 +42,14 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<h3>変換後</h3>
-						<textarea rows="10" id="after" class="w-100 form-control"></textarea>
+						<div class="form-group">
+							<h3>変換後</h3>
+							<textarea rows="10" id="after" class="w-100 form-control"></textarea>
+						</div>
+						<div class="form-group">
+							<h3>プレビュー</h3>
+							<div id="preview" style="padding: 1em 2em;"></div>
+						</div>
 					</div>
 				</div>
 			</div>

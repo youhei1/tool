@@ -20,6 +20,7 @@ $(function() {
 		var kkakko2 = $('#input [name=kkakko2]').val();
 		var ruby = convertToRuby(kanji,yomi,kakko1,kkakko2);
 		$('#after').val(ruby);
+		$('#preview').html(ruby);
 	});
 
 });
